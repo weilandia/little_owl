@@ -10,7 +10,7 @@ class Product < ActiveRecord::Base
 
   has_attached_file :image,
       styles: { index: '275x175>', show: '550x350<', small: '137.5x87.5>' },
-      default_url: 'assets/images/nav-logo.png'
+      default_url: '/assets/nav-logo-dcbacebfd4a74e9dd03a8b25e54dd394ae20fa2d62a47a2c08a4b27fd80962d3.png'
 
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 

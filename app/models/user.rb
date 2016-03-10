@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
   end
 
   def admin_message
-    ["Life is good, #{self.first_name}."]
+    ["Life is good, #{self.first_name}.", "You iz tha coolest #{self.first_name}", "Wake up and smell the joe, #{self.first_name}"]
   end
 
   def name
