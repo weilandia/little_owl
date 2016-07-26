@@ -9,7 +9,6 @@ Admin Password: password
 
 #####Admin Workflow
  ![admin workflow](app/assets/images/admin_workflow.gif)
-
 #####User Workflow
  ![user workflow](app/assets/images/user_workflow.gif)
 
